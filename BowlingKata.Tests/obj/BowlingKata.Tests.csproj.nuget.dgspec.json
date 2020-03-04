@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata.Tests\\BowlingKata.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata.Tests\\BowlingKata.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata.Tests\\BowlingKata.Tests.csproj",
+        "projectName": "BowlingKata.Tests",
+        "projectPath": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata.Tests\\BowlingKata.Tests.csproj",
+        "packagesPath": "C:\\Users\\748901\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\748901\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TriZettoProvider/TPS/_packaging/TPSCommonPackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TriZettoProvider/TPS/_packaging/TPSInternal%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\BowlingKata.csproj": {
+                "projectPath": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\BowlingKata.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\BowlingKata.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\BowlingKata.csproj",
+        "projectName": "BowlingKata",
+        "projectPath": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\BowlingKata.csproj",
+        "packagesPath": "C:\\Users\\748901\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BowlingKata\\BowlingKata\\BowlingKata\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\748901\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TriZettoProvider/TPS/_packaging/TPSCommonPackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TriZettoProvider/TPS/_packaging/TPSInternal%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
